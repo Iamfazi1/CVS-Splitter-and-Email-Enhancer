@@ -1,68 +1,80 @@
-# CVS Splitter and Email Enhancer
+# 📦 CSV Splitter & Email Enhancer
 
-This tool is designed to help you:
-- **Split large CSV files** into **smaller individual CSV files**.
-- **Analyze and enhance emails** for phishing by extracting key information such as sender/receiver details, IP addresses, and links from CSV files containing email data.
+🚀 A simple tool to **split large CSV files** and **analyze email data** (like phishing detection) — all with a user-friendly GUI.
 
 ---
 
-## Why I Created This Tool
+## 🧠 Why I Made This
 
-I created this tool because I found there was no easy solution to:
-- Split **large CSV files** into smaller, more manageable chunks.
-- Extract and analyze **email details** to detect potential phishing attacks.
+I couldn’t find any easy tool that could split CSV files and analyze email content for security, so I built my own.
 
-Now, with this tool, you can:
-- Split a large CSV file into smaller individual files based on row count.
-- Automatically extract relevant email data to aid in phishing email analysis.
+- Built for Windows
+- Created by **Faizan Shakir**
+- GUI powered with Python & Tkinter
 
 ---
 
-## Requirements
+## 🎯 Features
 
-To run this tool, you need to have **Python** installed on your Windows machine.
-
-### 1. Install Python:
-- Download and install **Python 3.x** from [here](https://www.python.org/downloads/).
-- Make sure to check **"Add Python to PATH"** during the installation process.
-
-### 2. Install Required Libraries:
-- Open **Command Prompt** and run the following command to install the required libraries:
-    ```bash
-    pip install tkinter requests
-    ```
+- 🔹 **CSV Splitter** – Break down large CSVs into smaller files
+- 🔹 **Email Enhancer** – Extract sender, links, IPs from CSV email logs
+- 🔹 **Clean UI** – One-click clear/reset
+- 🔹 **Simple Exit** – Just hit exit to close
 
 ---
 
-## How to Use the Tool
+## 📸 GUI Preview
 
-### Step 1: Download the Code
-
-1. Download the **`split_csv_gui.py`** file directly from this repository [here](https://github.com/Iamfazi1/CVS-Splitter-and-Email-Enhancer/blob/main/split_csv_gui.py).
-
-### Step 2: Run the Tool
-
-1. After downloading the file, simply **double-click** on `split_csv_gui.py`.
-2. The tool will automatically launch a **GUI** window.
-   
-### Features:
-
-- **CSV Splitter**: 
-  - Allows you to select a large CSV file and **split** it into **smaller individual CSV files**. 
-  - You can specify the number of rows per file, and the tool will generate separate CSV files accordingly.
-  
-- **Email Enhancer**: 
-  - Select a CSV file containing email data for analysis. 
-  - The tool will automatically extract important email details, including sender/receiver info, IP addresses, and links to help identify potential phishing threats.
+![App Screenshot](https://github.com/Iamfazi1/CVS-Splitter-and-Email-Enhancer/blob/main/Capture.PNG)
 
 ---
 
-## Enjoy!
+## ⚙️ How to Use
 
-This tool was built to make it easy for you to manage large CSV files and analyze emails for phishing attempts. Just download, run, and start using it immediately!
+1. **Install Python**  
+   If you don’t have it yet, download Python from [python.org](https://www.python.org/downloads/)
+
+2. **Download the Tool**  
+   Grab the code: [`split_csv_gui.py`](https://github.com/Iamfazi1/CVS-Splitter-and-Email-Enhancer/blob/main/split_csv_gui.py)
+
+3. **Run It**  
+   Just double-click the `.py` file or right-click → open with Python.  
+   The GUI will open, and you're ready to go!
 
 ---
 
-## License
+## 🔘 Button Functions
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+| Button             | What It Does                                           |
+|--------------------|--------------------------------------------------------|
+| `Split CSV File`   | Breaks one CSV into smaller CSV files (by row count)   |
+| `Analyze Email Data` | Parses CSV email data for IPs, domains, links, etc. |
+| `Clear Data`       | Resets all fields and selections                       |
+| `Exit`             | Closes the app                                         |
+
+---
+
+## 🙌 Built With
+
+- Python 🐍
+- Tkinter 🎨
+- Pandas 📊
+
+---
+
+## 👑 Author
+
+**👤 Muhammad Faizan Shakir**  
+📧 f.sgamar222@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/muhmmadfaizanshakir/)  
+🔗 [TryHackMe](https://tryhackme.com/p/faizanshakir123)
+
+---
+
+## 🧾 License
+
+MIT License – do whatever you want, just give credit. 😉
+
+---
+
+> ⭐ If you like this tool, drop a star on the repo and share it!
